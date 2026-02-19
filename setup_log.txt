@@ -1,0 +1,147 @@
+
+================================================================================
+🚀 HALLUCINATION DETECTION PROJECT - ENVIRONMENT SETUP
+================================================================================
+
+============================================================
+📦 INSTALLING REQUIRED PACKAGES
+============================================================
+
+📂 Core ML Libraries
+
+============================================================
+🔧 Installing torch==2.0.1
+============================================================
+❌ Installing torch==2.0.1 - FAILED
+Error: /usr/bin/python3: No module named pip
+
+
+============================================================
+🔧 Installing transformers==4.30.2
+============================================================
+❌ Installing transformers==4.30.2 - FAILED
+Error: /usr/bin/python3: No module named pip
+
+
+============================================================
+🔧 Installing sentence-transformers==2.2.2
+============================================================
+❌ Installing sentence-transformers==2.2.2 - FAILED
+Error: /usr/bin/python3: No module named pip
+
+
+📂 Data Processing
+
+============================================================
+🔧 Installing datasets==2.12.0
+============================================================
+❌ Installing datasets==2.12.0 - FAILED
+Error: /usr/bin/python3: No module named pip
+
+
+============================================================
+🔧 Installing pandas==2.0.2
+============================================================
+❌ Installing pandas==2.0.2 - FAILED
+Error: /usr/bin/python3: No module named pip
+
+
+============================================================
+🔧 Installing numpy==1.24.3
+============================================================
+❌ Installing numpy==1.24.3 - FAILED
+Error: /usr/bin/python3: No module named pip
+
+
+📂 Machine Learning
+
+============================================================
+🔧 Installing scikit-learn==1.3.0
+============================================================
+❌ Installing scikit-learn==1.3.0 - FAILED
+Error: /usr/bin/python3: No module named pip
+
+
+============================================================
+🔧 Installing rank-bm25==0.2.2
+============================================================
+❌ Installing rank-bm25==0.2.2 - FAILED
+Error: /usr/bin/python3: No module named pip
+
+
+📂 Visualization
+
+============================================================
+🔧 Installing matplotlib==3.7.1
+============================================================
+❌ Installing matplotlib==3.7.1 - FAILED
+Error: /usr/bin/python3: No module named pip
+
+
+============================================================
+🔧 Installing seaborn==0.12.2
+============================================================
+❌ Installing seaborn==0.12.2 - FAILED
+Error: /usr/bin/python3: No module named pip
+
+
+📂 Utilities
+
+============================================================
+🔧 Installing tqdm==4.65.0
+============================================================
+❌ Installing tqdm==4.65.0 - FAILED
+Error: /usr/bin/python3: No module named pip
+
+
+============================================================
+🔧 Installing nltk==3.8.1
+============================================================
+❌ Installing nltk==3.8.1 - FAILED
+Error: /usr/bin/python3: No module named pip
+
+
+============================================================
+📁 CREATING PROJECT STRUCTURE
+============================================================
+✅ Created: /home/priyanka/Desktop/LLM_HALLUCINATION/signals
+   └── __init__.py
+✅ Created: /home/priyanka/Desktop/LLM_HALLUCINATION/data
+✅ Created: /home/priyanka/Desktop/LLM_HALLUCINATION/results
+✅ Created: /home/priyanka/Desktop/LLM_HALLUCINATION/models
+✅ Created: /home/priyanka/Desktop/LLM_HALLUCINATION/figures
+
+============================================================
+🤖 DOWNLOADING PRE-TRAINED MODELS
+============================================================
+
+📥 Downloading sentence-transformers model...
+❌ Failed to download sentence-transformers: No module named 'sentence_transformers'
+
+============================================================
+✔️  VERIFYING INSTALLATION
+============================================================
+❌ PyTorch - NOT FOUND
+❌ Transformers - NOT FOUND
+❌ Sentence-Transformers - NOT FOUND
+❌ HuggingFace Datasets - NOT FOUND
+❌ Pandas - NOT FOUND
+❌ NumPy - NOT FOUND
+❌ Scikit-learn - NOT FOUND
+❌ BM25 - NOT FOUND
+❌ Matplotlib - NOT FOUND
+❌ Seaborn - NOT FOUND
+❌ TQDM - NOT FOUND
+❌ NLTK - NOT FOUND
+
+================================================================================
+📊 SETUP SUMMARY
+================================================================================
+Installing packages: ❌ FAILED
+Creating project structure: ✅ SUCCESS
+Downloading models: ❌ FAILED
+Verifying installation: ❌ FAILED
+
+================================================================================
+⚠️  SETUP INCOMPLETE - Please fix the errors above
+================================================================================

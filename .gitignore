@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Data
+data/raw/*
+data/processed/*
+data/corpus/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/corpus/.gitkeep
+
+# Models
+models/saved/*
+!models/saved/.gitkeep
+*.pkl
+*.pth
+*.bin
+
+# Results
+results/**/*
+!results/**/.gitkeep
+
+# Figures
+figures/**/*.png
+figures/**/*.pdf
+!figures/**/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
